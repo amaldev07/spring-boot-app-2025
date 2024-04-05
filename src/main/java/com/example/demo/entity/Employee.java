@@ -1,28 +1,35 @@
-package com.example.demo;
+package com.example.demo.entity;
+
+import jakarta.persistence.*;
 
 import java.time.LocalDate;
 
+@Entity
+@Table(name = "employees", schema = "shopping_cart")
 public class Employee {
 
-    private int employeeId;
+    @Id
+    @Column(name = "employee_id")
+    private Integer employeeId;
+
+    @Column(name = "first_name")
     private String firstName;
+
+    @Column(name = "last_name")
     private String lastName;
+
+    @Column(name = "hire_date")
     private LocalDate hireDate;
 
-    public Employee(int employeeId, String firstName, String lastName, LocalDate hireDate) {
-        this.employeeId = employeeId;
-        this.firstName = firstName;
-        this.lastName = lastName;
-        this.hireDate = hireDate;
-    }
+    public Employee() {}
 
-    // Getters and setters
+    // getters and setters
 
-    public int getEmployeeId() {
+    public Integer getEmployeeId() {
         return employeeId;
     }
 
-    public void setEmployeeId(int employeeId) {
+    public void setEmployeeId(Integer employeeId) {
         this.employeeId = employeeId;
     }
 
