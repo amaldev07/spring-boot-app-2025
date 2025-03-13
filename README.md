@@ -18,6 +18,7 @@ https://start.spring.io/
         Extention pack for jav
         this will install below extentions
         ![alt text](image-1.png)
+        ![alt text](image-1.png)
 
 5. To run the app
 
