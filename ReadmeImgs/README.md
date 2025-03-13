@@ -3,9 +3,9 @@ https://start.spring.io/
 
 2. Add 
         <dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-web</artifactId>
-		</dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
     In pom.xml
 3. Install jdk 17.0.10
 
@@ -13,15 +13,15 @@ https://start.spring.io/
         Spring boot tools
         Spring boot dashboard
         Spring Initiallizer Java Support
-        ![alt text](image.png) 
+        ![alt text](ReadmeImgs/image.png) 
 
         Extention pack for jav
         this will install below extentions
-        ![alt text](image-1.png)
+        ![alt text](ReadmeImgs/image-1.png)
 
 5. To run the app
 
         Run from here in vs code
-        ![alt text](image-2.png)
+        ![alt text](ReadmeImgs/image-2.png)
 
 
