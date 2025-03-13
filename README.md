@@ -22,6 +22,6 @@ https://start.spring.io/
 5. To run the app
 
         Run from here in vs code
-        ![alt text](ReadmeImgs/image-2.png)
+        ![alt text](image-2.png)
 
 
