@@ -13,7 +13,8 @@ https://start.spring.io/
         Spring boot tools
         Spring boot dashboard
         Spring Initiallizer Java Support
-        ![alt text](image.png)        
+        ![alt text](image.png) 
+        ---------------------------       
         Extention pack for jav
         this will install below extentions
         ![alt text](image-1.png)
