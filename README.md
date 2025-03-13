@@ -7,8 +7,9 @@ https://start.spring.io/
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
     In pom.xml
+3. Install jdk 17.0.10
 
-3. Install plugins in vscode
+4. Install plugins in vscode
         Spring boot tools
         Spring boot dashboard
         Spring Initiallizer Java Support
@@ -17,3 +18,10 @@ https://start.spring.io/
         Extention pack for jav
         this will install below extentions
         ![alt text](image-1.png)
+
+5. To run the app
+
+        Run from here in vs code
+        ![alt text](image-2.png)
+
+
